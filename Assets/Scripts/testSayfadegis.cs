@@ -21,6 +21,7 @@ public class testSayfadegis : MonoBehaviour {
 	public Button sonrakiButon9;
 
 
+
 	public Button oncekiButon2;
 	public Button oncekiButon3;
 	public Button oncekiButon4;
@@ -31,6 +32,28 @@ public class testSayfadegis : MonoBehaviour {
 	public Button oncekiButon9;
 	public Button oncekiButon10;
 
+
+	public Button btn1d;
+	public Button btn2d;
+	public Button btn3d;
+	public Button btn4d;
+	public Button btn5d;
+	public Button btn6d;
+	public Button btn7d;
+	public Button btn8d;
+	public Button btn9d;
+	public Button btn10d;
+
+	public Button btn1y;
+	public Button btn2y;
+	public Button btn3y;
+	public Button btn4y;
+	public Button btn5y;
+	public Button btn6y;
+	public Button btn7y;
+	public Button btn8y;
+	public Button btn9y;
+	public Button btn10y;
 
 	// SORULAR
 	public GameObject soru1;
@@ -121,8 +144,58 @@ public class testSayfadegis : MonoBehaviour {
 				geciciTekrar = 1;
 			}
 		}
+		if (yanitlar[1] == 1) {
+			btn1d.gameObject.SetActive (true);
+		} else {
+			btn1y.gameObject.SetActive (true);
+		}
+		if (yanitlar[2] == 1) {
+			btn2d.gameObject.SetActive (true);
+		} else {
+			btn2y.gameObject.SetActive (true);
+		}
+		if (yanitlar[3] == 1) {
+			btn3d.gameObject.SetActive (true);
+		} else {
+			btn3y.gameObject.SetActive (true);
+		}
+		if (yanitlar[4] == 1) {
+			btn4d.gameObject.SetActive (true);
+		} else {
+			btn4y.gameObject.SetActive (true);
+		}
+		if (yanitlar[5] == 1) {
+			btn5d.gameObject.SetActive (true);
+		} else {
+			btn5y.gameObject.SetActive (true);
+		}
 
-		//Debug.Log (sayi + "sayısı tam" + tekrarSayisi + "defa tekrar edildi");
+		if (yanitlar[6] == 1) {
+			btn6d.gameObject.SetActive (true);
+		} else {
+			btn6y.gameObject.SetActive (true);
+		}
+		if (yanitlar[7] == 1) {
+			btn7d.gameObject.SetActive (true);
+		} else {
+			btn7y.gameObject.SetActive (true);
+		}
+		if (yanitlar[8] == 1) {
+			btn8d.gameObject.SetActive (true);
+		} else {
+			btn8y.gameObject.SetActive (true);
+		}
+		if (yanitlar[9] == 1) {
+			btn9d.gameObject.SetActive (true);
+		} else {
+			btn9y.gameObject.SetActive (true);
+		}
+		if (yanitlar[10] == 1) {
+			btn10d.gameObject.SetActive (true);
+		} else {
+			btn10y.gameObject.SetActive (true);
+		}
+	
 
 		if ((sayi == 1) && (tekrarSayisi >= 7)) {
 		
